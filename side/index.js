@@ -60,7 +60,7 @@ const app = Vue.createApp({
           this.againPasswordError = false;
         }
       } else {
-        this.myListLink = "../login.html";
+        this.myListLink = "../index.html";
         console.log("ok");
       }
     },
