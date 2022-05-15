@@ -31,7 +31,7 @@ const app = Vue.createApp({
       } else {
         this.passwordError = false;
         this.emailError = false;
-        this.myListLink = "todolist.html";
+        this.myListLink = "side/todolist.html";
         console.log("ok");
       }
     },
@@ -60,7 +60,7 @@ const app = Vue.createApp({
           this.againPasswordError = false;
         }
       } else {
-        this.myListLink = "login.html";
+        this.myListLink = "../login.html";
         console.log("ok");
       }
     },
