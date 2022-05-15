@@ -21,10 +21,10 @@
   <div id="app">
     <header class="mt-4">
       <div class="container d-flex align-items-center justify-content-around justify-content-md-between">
-        <img src="image/logo.png" alt="logo">
+        <img src="../image/logo.png" alt="logo">
         <div>
           <span class="d-none d-md-inline pe-4 fw-bold">我的代辦事項</span>
-          <a class="logout" href="login.html">登出</a>
+          <a class="logout" href="../login.html">登出</a>
         </div>
       </div>
     </header>
@@ -36,13 +36,13 @@
             <form class="card d-flex flex-row align-items-center shadow mb-4" @submit.prevent="addList">
               <input class="w-100 py-3 ps-3 border-0 rounded" type="text" placeholder="新增待辦事項" v-model.trim="newTodo">
               <button class="bg-white border-0" type="submit">
-                <img class="me-2" src="image/plus 1.png" alt="plus">
+                <img class="me-2" src="../image/plus 1.png" alt="plus">
               </button>
             </form>
             <!-- 如果沒任何代辦事項顯示 -->
             <div class="empty text-center mt-6 mt-md-11" v-if="allData.length===0">
               <h4 class="mb-4">目前尚無待辦事項</h4>
-              <img src="image/empty.png">
+              <img src="../image/empty.png">
             </div>
 
             <!-- 如果沒任何代辦事項隱藏 -->
